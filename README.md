@@ -1,6 +1,6 @@
-# wolftracker
+# Wolf Tracker Vue.js project
 
-> WolfTracker demo project
+> Wolf Tracker demo project. 
 
 ## Build Setup
 
