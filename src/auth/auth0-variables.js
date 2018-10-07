@@ -1,7 +1,7 @@
 export const AUTH_CONFIG = {
   domain: 'wolftracker.au.auth0.com',
   clientId: 'ENTER YOUR KEY HERE',
-  callbackUrl: 'https://wolftracker.nz/callback',
+  callbackUrl: 'https://www.wolftracker.nz/callback',
   apiUrl: '{API_IDENTIFIER}'
 }
 

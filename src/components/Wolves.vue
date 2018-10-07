@@ -74,8 +74,8 @@ export default {
     loadWolves () {
       this.wolfImagesOriginal = []
       this.wolfImagesResized = []
-      // 'https://wolftracker.azurewebsites.net/mock/api/GetWolves'
-      axios.get('https://wolftracker.azurewebsites.net/api/GetWolves?code=WbzC1yh4bKyeQyVnHJhxSxrSg9HCadYn1g34r8T6tF//3C3rB6rNjw==')
+      // 'https://api.wolftracker.nz/mock/api/GetWolves'
+      axios.get('https://api.wolftracker.nz/api/GetWolves?code=WbzC1yh4bKyeQyVnHJhxSxrSg9HCadYn1g34r8T6tF//3C3rB6rNjw==')
       .then(Response => {
         var wolfImages = JSON.parse(Response.data)
         console.log('Getting wolves')
