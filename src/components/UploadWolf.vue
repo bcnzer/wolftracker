@@ -135,7 +135,7 @@ export default {
         this.imageInfo = null
         this.uploading = true
         this.uploadError = false
-        FormDataPost('https://wolftracker.azurewebsites.net/api/UploadWolfImage', this.image, localStorage.getItem('id_token'))
+        FormDataPost('https://api.wolftracker.nz/api/UploadWolfImage', this.image, localStorage.getItem('id_token'))
           .then(response => {
             if (response.status === 200) {
               console.log('Image uploaded successfully')
