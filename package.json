@@ -16,7 +16,7 @@
   "dependencies": {
     "EventEmitter": "^1.0.0",
     "auth0-js": "^9.8.0",
-    "axios": "^0.17.0",
+    "axios": "^0.21.1",
     "js-cookie": "^2.1.4",
     "jwt-decode": "^2.2.0",
     "vue": "^2.3.3",
